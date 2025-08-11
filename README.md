@@ -118,8 +118,12 @@ esptool.py -p /dev/ttyS5 -b 115200 --after hard_reset write_flash \
 # Credits & Inspiration
 
 
-Inspired by: risinek/esp32-wifi-penetration-tool
+Inspired by: SpacehuhnTech/esp8266_deauther
+
+Some ideas and codes from
 https://github.com/risinek/esp32-wifi-penetration-tool
+
+Jeija/esp32free80211 
 
 
 # Thanks to the 
