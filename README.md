@@ -2,7 +2,7 @@
 Hydra32 | A Wi-Fi Penetration firmware for ESP32
 
 # 🐍 Hydra32 — ESP32 Wi-Fi Penetration Tool
-
+![Hydra32 Banner](images/hydra.webp)
 
 > ⚠️ **FOR EDUCATIONAL AND AUTHORIZED TESTING PURPOSES ONLY** ⚠️  
 > Unauthorized use of this tool **may violate laws** in your country.  
@@ -79,15 +79,9 @@ If you need the **full version** for **legitimate, legal research** — you must
 
 ## 📸 Device Photo
 
-*(Place your image in `/images/esp32-devkit.jpg`)*
+![ESP32 Devkit V1](images/esp32v1.jpeg)
 
----
 
-## 🖼 Screenshots
-
-*(Place screenshots of the Hydra32 Web UI in `/images/`)*
-
----
 
 ## ⚙️ Installation
 
@@ -97,7 +91,7 @@ If you need the **full version** for **legitimate, legal research** — you must
 - ESP32 board *(Devkit V1 recommended)*
 
 ### 2️⃣ Download Firmware
-Go to **[Releases](../../releases)** and download:
+Go to Releases and download:
 - `bootloader.bin`
 - `partitions-table.bin`
 - `hydra32.bin`
@@ -119,17 +113,18 @@ esptool.py -p /dev/ttyS5 -b 115200 --after hard_reset write_flash \
   0x10000 hydra32.bin
 ```
 
-🙏 Credits & Inspiration
+# Credits & Inspiration
 
 
 Inspired by: risinek/esp32-wifi-penetration-tool
 https://github.com/risinek/esp32-wifi-penetration-tool
 
 
-Thanks to the ESP32 Open-Source Community for contributions.
+# Thanks to the 
+ESP32 Open-Source Community for contributions.
 
 
-📌 Final Notes
+# 📌 Final Notes
 Hydra32 is a learning and research tool.
 Misusing it harms the security community and may lead to stricter laws against hardware freedom.
 Be responsible.
