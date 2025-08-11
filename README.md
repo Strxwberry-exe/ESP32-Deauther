@@ -81,7 +81,9 @@ If you need the **full version** for **legitimate, legal research** — you must
 
 ![ESP32 Devkit V1](images/esp32v1.jpeg)
 
+## Screenshots 
 
+![Screenshot](images/webserver.jpg)
 
 ## ⚙️ Installation
 
